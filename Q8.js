@@ -51,9 +51,7 @@ class Stack {
 }
 
 var st = new Stack();
-
 var s = "Hello World";
-
 for (var i = 0; i < s.length; i++) {
     st.push(s.charAt(i));
 }
