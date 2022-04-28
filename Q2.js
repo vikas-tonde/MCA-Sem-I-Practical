@@ -46,7 +46,7 @@ class LinkedList {
                 temp = temp.next;
                 i = i + 1;
             }
-            temp.next.prev=n;
+            temp.next.prev = n;
             n.next = temp.next;
             temp.next = n;
             n.prev = temp;
@@ -78,12 +78,12 @@ class LinkedList {
                 }
                 else if (temp == this.head) {
                     this.head = this.head.next;
-                    this.head.prev=null;
+                    this.head.prev = null;
                     temp.next = null;
                 }
                 else {
                     prev.next = temp.next;
-                    temp.next.prev=prev;
+                    temp.next.prev = prev;
                     temp.next = null;
                 }
             }
@@ -100,7 +100,7 @@ class LinkedList {
         else {
             var temp = this.head;
             console.log("The list in forward direction: ");
-            while (temp.next!= null) {
+            while (temp.next != null) {
                 console.log(temp.data);
                 temp = temp.next;
             }
@@ -118,10 +118,9 @@ const list = new LinkedList()
 list.create(1);
 list.create(2);
 list.create(3);
-// list.display();
+
 list.insert(10, 1);
 list.insert(30, 3);
 list.insert(40, 500);
 list.delete(3);
 list.display();
-// console.log(list.head);
