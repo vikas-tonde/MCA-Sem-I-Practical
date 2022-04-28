@@ -1,3 +1,4 @@
+//Doubly linked list implementation
 class Node {
     constructor(data) {
         this.data = data;

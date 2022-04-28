@@ -1,3 +1,4 @@
+//Singly linked list implementation
 class Node {
     constructor(data) {
         this.data = data;
@@ -109,4 +110,3 @@ list.insert(30, 3);
 list.insert(40, 500);
 list.delete(3);
 list.display();
-// console.log(list.head);
