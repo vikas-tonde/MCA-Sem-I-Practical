@@ -48,7 +48,7 @@ function checkParenthesis(str) {
         if (str[i] == "(") {
             s.push(str[i]);
         }
-        else if (str[i] ==")") {
+        else if (str[i] == ")") {
             if (s.pop() != "(") {
                 flag = false;
                 break;
@@ -73,10 +73,10 @@ function checkParenthesis(str) {
             }
         }
     }
-    if((!flag) || s.top!=null){
+    if ((!flag) || s.top != null) {
         console.log("Parenthesis in the expression are not balanced ");
     }
-    else{
+    else {
         console.log("Parenthesis in the expression are balanced");
     }
 }
