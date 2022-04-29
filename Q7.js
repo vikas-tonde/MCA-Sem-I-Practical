@@ -36,14 +36,14 @@ class PriorityQueue {
     }
 
     delete() {
-        if(this.isEmpty()){
+        if (this.isEmpty()) {
             console.log("Queue is empty");
         }
-        else{
+        else {
             var temp = this.front;
-            this.front=this.front.next;
-            temp.next=null;
-            console.log("Deleted: ",temp.data);
+            this.front = this.front.next;
+            temp.next = null;
+            console.log("Deleted: ", temp.data);
         }
     }
 
