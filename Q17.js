@@ -7,5 +7,4 @@ function testInfo(phoneInput) {
         console.log('Thanks, your phone number is ' + OK[0]);
     }
 }
-
 testInfo("8308859743");
